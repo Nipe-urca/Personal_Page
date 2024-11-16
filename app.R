@@ -285,7 +285,9 @@ server <- function(input, output) {
             }else if(input$tipo_docente == "Áydano Ribeiro"){
               HTML(
                 "
-                <h1> Não existem publicações para as opções selecionadas</h1>
+                <br></br><br></br>
+               <p> (i) Análise da Potência da Política Monetária no Brasil Pós-Pandemia da COVID-19. </a> Em Anais do IV ECONAPE. Em parceria com Eduardo Carvalho (URCA) e Anderson Oliveira (URCA). </p>
+                
                 "
               )
             }
