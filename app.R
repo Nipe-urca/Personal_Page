@@ -9,8 +9,8 @@
 
 library(shiny)
 library(OSUICode)
-library(dplyr)
-library(tidyr)
+#library(dplyr)
+#library(tidyr)
 
 # Define UI for application that draws a histogram
 ui <- function(){
