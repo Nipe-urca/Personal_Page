@@ -29,7 +29,11 @@ ui <- function(){
   # )
   div(style = "width: 100%; height: 100%;") # com isso a pagina se ajusta a largura da janela quando minimiza a tela
   tags$head(
-    tags$title("NIPE"),
+    tags$title(HTML(
+      "
+      <title> NIPE-Urca</title>
+      "
+    )),
     tags$p("Núcleo Integrado de Pesquisa Econômica", style = "font-size: 40px; color: #4d3a7d; text-align: center; font-famyly: Georgia"),
     HTML(
       "
